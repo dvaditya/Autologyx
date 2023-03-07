@@ -1,0 +1,130 @@
+.sidebarContainer {
+    width: 100%;
+    height: 70vh;
+    overflow-y: scroll;
+    min-width: 200px;
+    padding: 0 15px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/*.parentFolders{
+    div:last-child {
+        border-bottom: 1px solid darken($color: #9F9F9F, $amount: 7%);
+    }
+}*/
+
+.sidebarItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1.5px solid darken($color: #ebebeb, $amount: 7%);
+    border-bottom: none;
+    padding: 15px;
+    // margin: 0 15px 0 15px;
+    min-width: 220px;
+    &:hover {
+        color: #FFFFFF;
+        background: #002C5F;
+        cursor: pointer;
+    }
+    h5{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    span {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+}
+
+.active {
+    border-left: 4px solid darken($color: #002C5F, $amount: 1%);
+    transition: border-left .3s ease;
+    background-color: #d1d1d169;
+    &:hover {
+        h5 {
+            color: white!important
+        }
+    }
+    h5 {
+        font-weight: bold;
+        color: #0c8ce9;
+    }
+}
+
+.folderContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+// .folderName {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     padding: 5px;
+//     transition: background .3s ease;
+//     &:hover{
+//         cursor: pointer;
+//         background-color: lightgray;
+//     }
+// }
+
+.folderIcon {
+    margin-left: 20px;
+}
+
+.activeFolder{
+    background-color: lightgray;
+}
+
+.actionButton {
+    display: inline-block !important;
+    margin-right: 15px;
+}
+
+.numberFilesContainer {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    width:41px;
+    min-width: 41px;
+    margin-left: auto;
+    // align-items: center;
+    // color: #198f51;
+    font-size: 12px;
+}
+
+.fileIcon {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.noChevron{
+    margin-left: 25px;
+    display: inline-block !important;
+    // margin-right: 15px;
+}
+
+.dividerName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px
+}
+
+.borderBottom {
+    border-bottom: 1.5px solid darken($color: #ebebeb, $amount: 7%);
+}
+
+.folderName {
+    padding-left: 15px;
+    &:hover {
+        background-color: #002C5F;
+    }
+}

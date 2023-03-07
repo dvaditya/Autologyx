@@ -1,0 +1,9 @@
+export default {
+  TEXT: 'TEXT',
+  SELECT: 'SELECT',
+  NUMBER: 'NUMBER',
+  CURRENCY: 'CURRENCY',
+  TEXTAREA: 'TEXTAREA',
+  DATE: 'DATE',
+  TEXT_AREA: 'TEXT_AREA',
+};

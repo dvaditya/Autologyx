@@ -1,0 +1,29 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    //border: 1px solid darken($color: #002C5F, $amount: 7%);
+    //border-left: none;
+    width: 50%;
+
+    h5 {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+.mainContentTitle {
+    //border-bottom: 1px solid darken($color: #002C5F, $amount: 7%);
+    color: #FFFFFF;
+    //background-color: #002C5F;
+    text-align: center;
+}
+
+.dividerContainer {
+    margin-top: 10px;
+}
+
+.countReached {
+    display: flex;
+    color: #4d4f53;
+    align-items: center;
+}

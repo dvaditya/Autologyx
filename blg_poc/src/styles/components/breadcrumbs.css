@@ -1,0 +1,17 @@
+.breadcrumbs {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.breadcrumbs .crumb-arrow {
+  margin: 0 8px;
+}
+.breadcrumbs .crumb-arrow svg {
+  color: #3ab0de;
+}
+.breadcrumbs span {
+  font-size: 14px;
+  font-weight: 300;
+}
+.breadcrumbs span.last {
+  font-weight: bold;
+}

@@ -1,0 +1,1460 @@
+{
+    "configs": [
+        {
+            "forms": {
+                "Module 1 Form A": {
+                    "schema": {
+                        "tristate 1": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 2": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 3": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 4": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 5": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 6": {
+                            "type": "deficiencies"
+                        },
+                        "checkbox 1": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 2": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 3": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 4": {
+                            "type": "checkbox"
+                        },
+                        "freeform 1": {
+                            "type": "freeform"
+                        },
+                        "freeform 2": {
+                            "type": "freeform"
+                        },
+                        "freeform 3": {
+                            "type": "freeform"
+                        },
+                        "freeform 4": {
+                            "type": "freeform"
+                        },
+                        "comments 1": {
+                            "type": "comments"
+                        },
+                        "comments 2": {
+                            "type": "comments"
+                        },
+                        "select 1": {
+                            "type": "select",
+                            "options": [
+                                "one",
+                                "two",
+                                "three",
+                                "four",
+                                "five"
+                            ]
+                        },
+                        "select 2": {
+                            "type": "select",
+                            "options": [
+                                "red",
+                                "yellow",
+                                "blue"
+                            ]
+                        },
+                        "Group 1": {
+                            "type": "grouping",
+                            "fields": {
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        },
+                        "Group 2": {
+                            "type": "grouping",
+                            "fields": {
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        }
+                    },
+                    "tabs": [
+                        {
+                            "label": "Tab 1",
+                            "items": [
+                                "tristate 1",
+                                "tristate 2",
+                                "tristate 3",
+                                "tristate 4",
+                                "tristate 5",
+                                "tristate 6",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3",
+                                "checkbox 4",
+                                "select 1",
+                                "select 2",
+                                "Group 1",
+                                "Group 2"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "structure": {
+                "moduleName": "Module 1",
+                "instructions": "Drag up to five documents here",
+                "maxFiles": 5,
+                "subfolders": [],
+                "form": "Module 1 Form A"
+            }
+        },
+        {
+            "forms": {
+                "Individual Accounts": {
+                    "schema": {
+                        "tristate 1": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 2": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 3": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 4": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 5": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 6": {
+                            "type": "deficiencies"
+                        },
+                        "checkbox 1": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 2": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 3": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 4": {
+                            "type": "checkbox"
+                        },
+                        "freeform 1": {
+                            "type": "freeform"
+                        },
+                        "freeform 2": {
+                            "type": "freeform"
+                        },
+                        "freeform 3": {
+                            "type": "freeform"
+                        },
+                        "freeform 4": {
+                            "type": "freeform"
+                        },
+                        "comments 1": {
+                            "type": "comments"
+                        },
+                        "comments 2": {
+                            "type": "comments"
+                        },
+                        "select 1": {
+                            "type": "select",
+                            "options": [
+                                "one",
+                                "two",
+                                "three",
+                                "four",
+                                "five"
+                            ]
+                        },
+                        "select 2": {
+                            "type": "select",
+                            "options": [
+                                "red",
+                                "yellow",
+                                "blue"
+                            ]
+                        },
+                        "Group 1": {
+                            "type": "grouping",
+                            "fields": {
+                                "freeform 1": {
+                                    "type": "freeform"
+                                },
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "freeform 1",
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        },
+                        "Group 2": {
+                            "type": "grouping",
+                            "fields": {
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        }
+                    },
+                    "tabs": [
+                        {
+                            "label": "Tab 1",
+                            "items": [
+                                "tristate 1",
+                                "tristate 2",
+                                "tristate 3",
+                                "tristate 4",
+                                "tristate 5",
+                                "tristate 6",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3",
+                                "checkbox 4",
+                                "freeform 1",
+                                "freeform 2",
+                                "freeform 3",
+                                "freeform 4",
+                                "select 1",
+                                "select 2",
+                                "Group 1",
+                                "Group 2"
+                            ]
+                        }
+                    ]
+                },
+                "Corporate Accounts": {
+                    "schema": {
+                        "tristate 1": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 2": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 3": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 4": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 5": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 6": {
+                            "type": "deficiencies"
+                        },
+                        "checkbox 1": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 2": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 3": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 4": {
+                            "type": "checkbox"
+                        },
+                        "freeform 1": {
+                            "type": "freeform"
+                        },
+                        "freeform 2": {
+                            "type": "freeform"
+                        },
+                        "freeform 3": {
+                            "type": "freeform"
+                        },
+                        "freeform 4": {
+                            "type": "freeform"
+                        },
+                        "comments 1": {
+                            "type": "comments"
+                        },
+                        "comments 2": {
+                            "type": "comments"
+                        },
+                        "select 1": {
+                            "type": "select",
+                            "options": [
+                                "one",
+                                "two",
+                                "three",
+                                "four",
+                                "five"
+                            ]
+                        },
+                        "select 2": {
+                            "type": "select",
+                            "options": [
+                                "red",
+                                "yellow",
+                                "blue"
+                            ]
+                        },
+                        "Group 1": {
+                            "type": "grouping",
+                            "fields": {
+                                "freeform 1": {
+                                    "type": "freeform"
+                                },
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "freeform 1",
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        },
+                        "Group 2": {
+                            "type": "grouping",
+                            "fields": {
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        }
+                    },
+                    "tabs": [
+                        {
+                            "label": "Tab 1",
+                            "items": [
+                                "tristate 1",
+                                "tristate 2",
+                                "tristate 3",
+                                "tristate 4",
+                                "tristate 5",
+                                "tristate 6"
+                            ]
+                        },
+                        {
+                            "label": "Tab 1",
+                            "items": [
+                                "tristate 1",
+                                "freeform 1",
+                                "freeform 2",
+                                "freeform 3",
+                                "freeform 4",
+                                "select 1",
+                                "select 2"
+                            ]
+                        },
+                        {
+                            "label": "Tab 3",
+                            "items": [
+                                "Group 1",
+                                "Group 2"
+                            ]
+                        }
+                    ]
+                },
+                "Partnership Accounts": {
+                    "schema": {
+                        "tristate 1": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 2": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 3": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 4": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 5": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 6": {
+                            "type": "deficiencies"
+                        },
+                        "checkbox 1": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 2": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 3": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 4": {
+                            "type": "checkbox"
+                        },
+                        "freeform 1": {
+                            "type": "freeform"
+                        },
+                        "freeform 2": {
+                            "type": "freeform"
+                        },
+                        "freeform 3": {
+                            "type": "freeform"
+                        },
+                        "freeform 4": {
+                            "type": "freeform"
+                        },
+                        "comments 1": {
+                            "type": "comments"
+                        },
+                        "comments 2": {
+                            "type": "comments"
+                        },
+                        "select 1": {
+                            "type": "select",
+                            "options": [
+                                "one",
+                                "two",
+                                "three",
+                                "four",
+                                "five"
+                            ]
+                        },
+                        "select 2": {
+                            "type": "select",
+                            "options": [
+                                "red",
+                                "yellow",
+                                "blue"
+                            ]
+                        },
+                        "Group 1": {
+                            "type": "grouping",
+                            "fields": {
+                                "freeform 1": {
+                                    "type": "freeform"
+                                },
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "freeform 1",
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        },
+                        "Group 2": {
+                            "type": "grouping",
+                            "fields": {
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        }
+                    },
+                    "tabs": [
+                        {
+                            "label": "Tab 1",
+                            "items": [
+                                "tristate 1",
+                                "tristate 2",
+                                "tristate 3",
+                                "tristate 4",
+                                "tristate 5",
+                                "tristate 6",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3",
+                                "checkbox 4",
+                                "freeform 1",
+                                "freeform 2",
+                                "freeform 3",
+                                "freeform 4",
+                                "select 1",
+                                "select 2",
+                                "Group 1",
+                                "Group 2"
+                            ]
+                        }
+                    ]
+                },
+                "Trust Accounts": {
+                    "schema": {
+                        "tristate 1": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 2": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 3": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 4": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 5": {
+                            "type": "deficiencies"
+                        },
+                        "tristate 6": {
+                            "type": "deficiencies"
+                        },
+                        "checkbox 1": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 2": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 3": {
+                            "type": "checkbox"
+                        },
+                        "checkbox 4": {
+                            "type": "checkbox"
+                        },
+                        "freeform 1": {
+                            "type": "freeform"
+                        },
+                        "freeform 2": {
+                            "type": "freeform"
+                        },
+                        "freeform 3": {
+                            "type": "freeform"
+                        },
+                        "freeform 4": {
+                            "type": "freeform"
+                        },
+                        "comments 1": {
+                            "type": "comments"
+                        },
+                        "comments 2": {
+                            "type": "comments"
+                        },
+                        "select 1": {
+                            "type": "select",
+                            "options": [
+                                "one",
+                                "two",
+                                "three",
+                                "four",
+                                "five"
+                            ]
+                        },
+                        "select 2": {
+                            "type": "select",
+                            "options": [
+                                "red",
+                                "yellow",
+                                "blue"
+                            ]
+                        },
+                        "Group 1": {
+                            "type": "grouping",
+                            "fields": {
+                                "freeform 1": {
+                                    "type": "freeform"
+                                },
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "freeform 1",
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        },
+                        "Group 2": {
+                            "type": "grouping",
+                            "fields": {
+                                "select 1": {
+                                    "type": "select",
+                                    "options": [
+                                        "one",
+                                        "two",
+                                        "three",
+                                        "four",
+                                        "five"
+                                    ]
+                                },
+                                "checkbox 1": {
+                                    "type": "checkbox"
+                                },
+                                "checkbox 2": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 1",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "checkbox 3": {
+                                    "type": "checkbox",
+                                    "displayWhen": [
+                                        {
+                                            "op": "eq",
+                                            "args": [
+                                                "checkbox 2",
+                                                true
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "order": [
+                                "select 1",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3"
+                            ]
+                        }
+                    },
+                    "tabs": [
+                        {
+                            "label": "Tab 1",
+                            "items": [
+                                "tristate 1",
+                                "tristate 2",
+                                "tristate 3",
+                                "tristate 4",
+                                "tristate 5",
+                                "tristate 6",
+                                "checkbox 1",
+                                "checkbox 2",
+                                "checkbox 3",
+                                "checkbox 4",
+                                "freeform 1",
+                                "freeform 2",
+                                "freeform 3",
+                                "freeform 4",
+                                "select 1",
+                                "select 2",
+                                "Group 1",
+                                "Group 2"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "structure": {
+                "moduleName": "Opening Accounts",
+                "instructions": "Instructions for the folder Opening Accounts",
+                "maxFiles": 0,
+                "subfolders": [
+                    {
+                        "moduleName": "Individual Accounts",
+                        "instructions": "Instructions for the folder Individual Accounts",
+                        "maxFiles": 0,
+                        "subfolders": [
+                            {
+                                "moduleName": "Individual Accounts 1",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 2",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 3",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 4",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 5",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 6",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 7",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 8",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 9",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 10",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 11",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 12",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 13",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 14",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            },
+                            {
+                                "moduleName": "Individual Accounts 15",
+                                "instructions": "Instructions for the folder Individual Accounts ",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Individual Accounts"
+                            }
+                        ],
+                        "form": null
+                    },
+                    {
+                        "moduleName": "Corporate Accounts",
+                        "instructions": "Instructions for the folder Corporate Accounts",
+                        "maxFiles": 0,
+                        "subfolders": [
+                            {
+                                "moduleName": "Corporate Accounts 1",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 2",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 3",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 4",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 5",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 6",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 7",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 8",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 9",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 10",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 11",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 12",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 13",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 14",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            },
+                            {
+                                "moduleName": "Corporate Accounts 15",
+                                "instructions": "Instructions for the folder Corporate Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Corporate Accounts"
+                            }
+                        ],
+                        "form": null
+                    },
+                    {
+                        "moduleName": "Partnership Accounts",
+                        "instructions": "Instructions for the folder Partnership Accounts",
+                        "maxFiles": 0,
+                        "subfolders": [
+                            {
+                                "moduleName": "Partnership Accounts 1",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 2",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 3",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 4",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 5",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 6",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 7",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 8",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 9",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 10",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 11",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 12",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 13",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 14",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            },
+                            {
+                                "moduleName": "Partnership Accounts 15",
+                                "instructions": "Instructions for the folder Partnership Accounts",
+                                "maxFiles": 10,
+                                "subfolders": [],
+                                "form": "Partnership Accounts"
+                            }
+                        ],
+                        "form": null
+                    },
+                    {
+                        "moduleName": "Trust Accounts",
+                        "instructions": "Instructions for the folder Trust Accounts",
+                        "maxFiles": 0,
+                        "subfolders": [
+                            {
+                                "moduleName": "Trust Accounts 1",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 2",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 3",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 4",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 5",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 6",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 7",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 8",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 9",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 10",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 11",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 12",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 13",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 14",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            },
+                            {
+                                "moduleName": "Trust Accounts 15",
+                                "instructions": "Instructions for the folder Trust Accounts",
+                                "maxFiles": 0,
+                                "subfolders": [],
+                                "form": "Trust Accounts"
+                            }
+                        ],
+                        "form": null
+                    },
+                    {
+                        "moduleName": "Account Opening Precedents",
+                        "instructions": "Instructions for the folder Account Opening Precedents",
+                        "maxFiles": 0,
+                        "subfolders": [],
+                        "form": null
+                    }
+                ],
+                "form": null
+            }
+        }
+    ]
+}

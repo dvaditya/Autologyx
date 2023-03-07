@@ -1,0 +1,35 @@
+.alert-wrapper {
+  position: absolute;
+  z-index: 2;
+  bottom: 1rem;
+  right: 1rem;
+}
+.MuiAlert-root {
+  width: 350px;
+  margin-top: 1rem;
+  max-width: calc(100vw - 1rem);
+}
+.MuiAlert-root.MuiAlert-standardSuccess {
+  background-color: rgba(52, 181, 127, 0.87);
+  color: #fff;
+}
+.MuiAlert-root.MuiAlert-standardInfo {
+  background-color: rgba(52, 167, 181, 0.9);
+  color: #fff;
+}
+.MuiAlert-root.MuiAlert-standardWarning {
+  background-color: rgba(181, 129, 52, 0.87);
+  color: #fff;
+}
+.MuiAlert-root.MuiAlert-standardError {
+  background-color: rgba(216, 90, 90, 0.87);
+  color: #fff;
+}
+.MuiAlert-root svg {
+  color: #fff;
+}
+.MuiAlert-root button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin-right: 10px;
+}

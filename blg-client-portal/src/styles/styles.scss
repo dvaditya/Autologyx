@@ -1,0 +1,11 @@
+@import './base/settings';
+@import './base/base';
+
+.confirmAlert{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-top: auto;
+    width: 100%;
+    min-width: 600px;
+}

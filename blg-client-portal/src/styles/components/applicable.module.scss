@@ -1,0 +1,19 @@
+.applicableContainer {
+    margin: 10px 30px 0 30px;
+    select {
+        border: 1px solid darken($color: #2e2e2e, $amount: 7%);
+        margin-top: 10px;
+        width: 80%;
+        padding: 5px;
+        background-color: #FFFFFF;
+        &:hover {
+            color: #FFFFFF;
+            background-color: #002C5F;
+            cursor: pointer;
+        }
+    }
+}
+
+option:hover{
+    background-color: #002C5F;
+}

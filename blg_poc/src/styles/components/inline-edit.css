@@ -1,0 +1,54 @@
+.inline-text_copy--active,
+.inline-text_input--active {
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  padding: 0;
+  background: none;
+  border: none;
+  border-bottom: 1px dashed #666666;
+}
+.inline-text_copy--active {
+  cursor: pointer;
+}
+.inline-text_copy--hidden,
+.inline-text_input--hidden {
+  display: none !important;
+}
+.inline-text_input--active {
+  border-bottom: 1px solid #666666;
+  text-align: left;
+}
+.multiline .inline-text_copy--active {
+  padding: 9px 9px 4px 9px;
+  width: calc(100% - 18px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-wrap: nowrap;
+}
+textarea.multiline-text {
+  width: calc(100% - 1rem);
+  resize: vertical;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+  font-weight: '400';
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  font-size: 13px;
+  color: #222;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  padding: 8px;
+  border-radius: 2px;
+  vertical-align: -1px;
+  border-color: #d3dee7;
+}
+textarea.multiline-text:focus {
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  border-color: #40a9ff;
+}

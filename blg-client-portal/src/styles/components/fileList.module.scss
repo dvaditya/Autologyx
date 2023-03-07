@@ -1,0 +1,79 @@
+.fileContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1.5px solid darken($color: #ebebeb, $amount: 7%);
+    border-radius: 3px;
+    width: 400px;
+    margin-top: 10px;
+    &:hover {
+        background-color: #e8e8e8b1;
+        transform: scale(1.05)
+    }
+}
+
+.fileListContainer {
+    //border-top: 1px solid darken($color: #002C5F, $amount: 7%);
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    max-height: 250px;
+    margin-top: 20px;
+    overflow-y: auto;
+    
+}
+
+.fileContents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    //  width: 40%;
+    //text-align: left;
+    padding: 5px;
+    //width: 100%;
+    
+}
+
+.fileNameContents {
+    font-size: 14px;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.fileName {
+    // text-decoration: underline;
+}
+
+.fileNameLink {
+    text-decoration: none !important;
+    color: #0c8ce9!important;
+}
+
+.fileNameLink:hover {
+    text-decoration: underline!important;
+    color: darken($color:#0c8ce9, $amount: 15%) !important
+}
+
+.fileDelete {
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.itemFailed {
+    color: red;
+}
+
+.actions {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: auto;
+    font-size: 24px;
+    color: #d9d9d9;
+    &:hover{
+       color: darken($color: #d9d9d9, $amount: 20%);
+    }
+}

@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #4d4f53 !important;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+.content-container {
+    margin: 0;
+    padding: 0;
+    margin-left: 55px;
+    padding-top: 100px;
+    //z-index: -1 !important;
+    //max-width: 80rem;
+}
+
+.main-content {
+    display: flex;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side-banner {
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 55px;
+    background-color: #002C5F;
+}
+
+.banner-container{
+    z-index: 100;
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: #59acc3 !important;
+}

@@ -1,0 +1,15 @@
+include:
+  - template: Jobs/SAST.gitlab-ci.yml
+
+variables:
+  SAST_ANALYZER_IMAGE_PREFIX: "registry.gitlab.com/gitlab-org/security-products/analyzers"
+  SAST_DEFAULT_ANALYZERS: "secrets"
+  SAST_ANALYZER_IMAGE_TAG: 2
+  SAST_DISABLE_DIND: "true"
+  SCAN_KUBERNETES_MANIFESTS: "false"
+  SAST_EXCLUDED_ANALYZERS: 'phpcs-security-audit-sast, eslint-sast, nodejs-scan-sast'
+secrets-sast:
+  allow_failure: false
+  extends: .sast-analyzer
+  image:
+    name : "$SAST_ANALYZER_IMAGE_PREFIX/secrets"
